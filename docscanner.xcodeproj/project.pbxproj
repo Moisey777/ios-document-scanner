@@ -12,6 +12,10 @@
 		11DA74FB2022FA9100E35A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DA74F92022FA9100E35A3D /* Main.storyboard */; };
 		11DA74FD2022FA9100E35A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DA74FC2022FA9100E35A3D /* Assets.xcassets */; };
 		11DA75002022FA9100E35A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DA74FE2022FA9100E35A3D /* LaunchScreen.storyboard */; };
+		11DA751D2023008200E35A3D /* DynamsoftCameraSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DA751C2023008200E35A3D /* DynamsoftCameraSDK.framework */; };
+		11DA751E2023020D00E35A3D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DA750E2022FE3700E35A3D /* libstdc++.tbd */; };
+		11DA7523202302EB00E35A3D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DA7522202302EB00E35A3D /* libsqlite3.tbd */; };
+		11DA75292024605800E35A3D /* DynamsoftCameraSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11DA75282024605800E35A3D /* DynamsoftCameraSDKResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,16 @@
 		11DA74FC2022FA9100E35A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DA74FF2022FA9100E35A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DA75012022FA9100E35A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DA75082022FBCE00E35A3D /* DynamsoftCameraSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamsoftCameraSDK.framework; path = "../../Downloads/(iOS)DynamsoftCameraSDK1.0/Framework/DynamsoftCameraSDK.framework"; sourceTree = "<group>"; };
+		11DA750A2022FE0500E35A3D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		11DA750C2022FE2600E35A3D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		11DA750E2022FE3700E35A3D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		11DA75102022FE5000E35A3D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		11DA75112022FE5000E35A3D /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		11DA75142022FF5F00E35A3D /* docscanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "docscanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		11DA751C2023008200E35A3D /* DynamsoftCameraSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamsoftCameraSDK.framework; sourceTree = "<group>"; };
+		11DA7522202302EB00E35A3D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		11DA75282024605800E35A3D /* DynamsoftCameraSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DynamsoftCameraSDKResource.bundle; path = "../../../Downloads/(iOS)DynamsoftCameraSDK1.0/Framework/DynamsoftCameraSDKResource.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA7523202302EB00E35A3D /* libsqlite3.tbd in Frameworks */,
+				11DA751E2023020D00E35A3D /* libstdc++.tbd in Frameworks */,
+				11DA751D2023008200E35A3D /* DynamsoftCameraSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,7 @@
 			children = (
 				11DA74F42022FA9100E35A3D /* docscanner */,
 				11DA74F32022FA9100E35A3D /* Products */,
+				11DA75072022FBCE00E35A3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +72,31 @@
 		11DA74F42022FA9100E35A3D /* docscanner */ = {
 			isa = PBXGroup;
 			children = (
+				11DA75282024605800E35A3D /* DynamsoftCameraSDKResource.bundle */,
+				11DA751C2023008200E35A3D /* DynamsoftCameraSDK.framework */,
 				11DA74F52022FA9100E35A3D /* AppDelegate.swift */,
 				11DA74F72022FA9100E35A3D /* ViewController.swift */,
 				11DA74F92022FA9100E35A3D /* Main.storyboard */,
 				11DA74FC2022FA9100E35A3D /* Assets.xcassets */,
 				11DA74FE2022FA9100E35A3D /* LaunchScreen.storyboard */,
 				11DA75012022FA9100E35A3D /* Info.plist */,
+				11DA75142022FF5F00E35A3D /* docscanner-Bridging-Header.h */,
 			);
 			path = docscanner;
+			sourceTree = "<group>";
+		};
+		11DA75072022FBCE00E35A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11DA7522202302EB00E35A3D /* libsqlite3.tbd */,
+				11DA75102022FE5000E35A3D /* libstdc++.6.0.9.tbd */,
+				11DA75112022FE5000E35A3D /* libstdc++.6.tbd */,
+				11DA750E2022FE3700E35A3D /* libstdc++.tbd */,
+				11DA750C2022FE2600E35A3D /* libsqlite3.0.tbd */,
+				11DA750A2022FE0500E35A3D /* libc++.tbd */,
+				11DA75082022FBCE00E35A3D /* DynamsoftCameraSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +130,7 @@
 				TargetAttributes = {
 					11DA74F12022FA9100E35A3D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +161,7 @@
 				11DA75002022FA9100E35A3D /* LaunchScreen.storyboard in Resources */,
 				11DA74FD2022FA9100E35A3D /* Assets.xcassets in Resources */,
 				11DA74FB2022FA9100E35A3D /* Main.storyboard in Resources */,
+				11DA75292024605800E35A3D /* DynamsoftCameraSDKResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,12 +310,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5D9GMM365;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/docscanner",
+				);
 				INFOPLIST_FILE = docscanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = dynamsoft.docscanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "docscanner/docscanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,12 +334,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5D9GMM365;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/docscanner",
+				);
 				INFOPLIST_FILE = docscanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = dynamsoft.docscanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "docscanner/docscanner-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
