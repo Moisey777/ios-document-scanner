@@ -10,3 +10,6 @@ This is a simple iOS document scanner app built with [Dynamsoft iOS Camera SDK](
 1. Import the project to Xcode.
 2. Select a device.
 3. Build and run the app.
+
+## Blog
+[How to Use Dynamsoft iOS Camera SDK](http://www.codepool.biz/use-dynamsoft-ios-camera-sdk.html)
